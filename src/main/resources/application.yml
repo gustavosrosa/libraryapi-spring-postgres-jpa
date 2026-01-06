@@ -10,5 +10,6 @@ spring:
       max-lifetime: 600000
       pool-name: library-db-pool
       connection-timeout: 100000
-
-
+  jpa:
+      hibernate:
+        ddl-auto: update
